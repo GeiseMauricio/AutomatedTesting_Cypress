@@ -1,0 +1,58 @@
+
+{
+
+    "signup": {
+        "name": "Geisiana",
+         "cpf": "77436423215",
+        "email": "geise.mauricio@gmail.com",
+        "whatsapp": "92991645616",
+        "address": {
+            "postalcode": "69086051",
+            "street": "Rua Rio Dimiti",
+            "number": "51",
+            "details": "Quadra 49 Ao lado do Restaurante Sabor Nordestino",
+            "district": "São José Operário",
+            "city_state": "Manaus/AM"
+            },
+
+        "delivery_method": "Moto", 
+        "cnh": "CNH.jpg"
+        },
+    "cpf_inv": {
+        "name": "Geisiana",
+        "cpf": "774364232AA",
+        "email": "geise.mauricio@gmail.com",
+        "whatsapp": "92991645616",
+        "address": {
+            "postalcode": "69086051",
+            "street": "Rua Rio Dimiti",
+            "number": "51",
+            "details": "Quadra 49 Ao lado do Restaurante Sabor Nordestino",
+            "district": "São José Operário",
+            "city_state": "Manaus/AM"
+        },
+
+        "delivery_method": "Moto",  
+        "cnh": "CNH.jpg"
+
+    },
+
+    "email_inv": {
+        "name": "Geisiana",
+        "cpf": "77436423215",
+        "email": "geise.mauricio.com.br",
+        "whatsapp": "92991645616",
+        "address": {
+                "postalcode": "69086051",
+                "street": "Rua Rio Dimiti",
+                "number": "51",
+                "details": "Quadra 49 Ao lado do Restaurante Sabor Nordestino",
+                "district": "São José Operário",
+                "city_state": "Manaus/AM"
+        },
+
+        "delivery_method": "Moto",  
+        "cnh": "CNH.jpg"
+
+    }
+}
