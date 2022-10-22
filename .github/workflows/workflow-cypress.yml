@@ -13,16 +13,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
-      - name: 'UI Tests - Chrome'
+      - name: 'UI Tests - Firefox'
         uses: cypress-io/github-action@v2
         with:
           install-command: yarn install
           wait-on: ${{ secrets.BASE_URL }}
           wait-on-timeout: 120
-          browser: chrome
+          browser: firefox
           headless: true
           record: true
-          group: 'UI - Chrome'
+          group: 'UI - Firefox'
           spec: cypress/e2e/*
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
