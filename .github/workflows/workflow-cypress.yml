@@ -17,11 +17,13 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           install-command: yarn install
+          config-file: cypress.config.ts
           wait-on: ${{ secrets.BASE_URL }}
           wait-on-timeout: 120
-          browser: firefox
+          browser: chrome
+          headless: true
           record: true
-          group: 'UI - Firefox'
+          group: 'UI - Chrome'
           spec: cypress/e2e/*
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
