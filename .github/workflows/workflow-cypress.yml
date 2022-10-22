@@ -21,8 +21,8 @@ jobs:
           wait-on-timeout: 120
           browser: chrome
           record: true
-          group: 'UI - Chrome'
-          spec: cypress/integration/*
+          group: 'UI - Firefox'
+          spec: cypress/e2e/*
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
