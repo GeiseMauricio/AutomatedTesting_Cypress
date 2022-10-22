@@ -19,7 +19,7 @@ jobs:
           install-command: yarn install
           wait-on: ${{ secrets.BASE_URL }}
           wait-on-timeout: 120
-          browser: chrome
+          browser: firefox
           record: true
           group: 'UI - Firefox'
           spec: cypress/e2e/*
